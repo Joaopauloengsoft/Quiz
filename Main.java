@@ -69,5 +69,15 @@ public class Main {
         q6.correta = "C";
         questoes.add(q6);
 
+        Questao q7 = new Questao();
+        q7.pergunta = "QUESTÃO 7- Com que idade Dom Pedro II tornou-se imperador do Brasil?\n";
+        q7.opcaoA = "A) 8 anos";
+        q7.opcaoB = "B) 5 anos";
+        q7.opcaoC = "C) 10 anos";
+        q7.opcaoD = "D) 21 anos";
+        q7.opcaoE = "E) 31 anos";
+        q7.correta = "C";
+        questoes.add(q7);
+
     }
 }
