@@ -118,5 +118,15 @@ public class Main {
         q11.opcaoE = "E) Haiti";
         q11.correta = "E";
         questoes.add(q11);
+
+        Questao q12 = new Questao();
+        q12.pergunta = "QUESTÃO 12- Quem foi o líder da Revolução Francesa?";
+        q12.opcaoA = "A) Maximilien Robespierre";
+        q12.opcaoB = "B) Luís XVI";
+        q12.opcaoC = "C) Napoleão Bonaparte";
+        q12.opcaoD = "D) Jean-Paul Marat";
+        q12.opcaoE = "E) Georges Danton";
+        q12.correta = "A";
+        questoes.add(q12);
     }
 }
