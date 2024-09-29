@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class util {
+public class Util {
     public static void cabecalho() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("CENTRO UNIVERSITÁRIO ALFREDO NASSER");
