@@ -48,5 +48,15 @@ public class Main {
         q4.opcaoE = "E) Tutmés II";
         q4.correta = "B";
         questoes.add(q4);
+        
+        Questao q5 = new Questao();
+        q5.pergunta = "QUESTÃO 5- Quando foi firmado o Tratado de Tordesilhas";
+        q5.opcaoA = "A) 1 de janeiro de 1593";
+        q5.opcaoB = "B) 21 de abril de 1792 ";
+        q5.opcaoC = "C) 22 de abril de 1500";
+        q5.opcaoD = "D) 7 de junho de 1494";
+        q5.opcaoE = "E) 12 de outubro de 1492";
+        q5.correta = "D";
+        questoes.add(q5);
     }
 }
