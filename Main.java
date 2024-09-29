@@ -138,5 +138,17 @@ public class Main {
         q13.opcaoE = "E) A Guerra dos Cem Anos";
         q13.correta = "D";
         questoes.add(q13);
+
+        Questao q14 = new Questao();
+        q14.pergunta = "QUESTÃO 14- Quem foi o primeiro imperador de Roma?";
+        q14.opcaoA = "A) Júlio César";
+        q14.opcaoB = "B) Augusto";
+        q14.opcaoC = "C) Nero";
+        q14.opcaoD = "D) Calígula";
+        q14.opcaoE = "E) Trajano";
+        q14.correta = "B";
+        questoes.add(q14);
+
+        
     }
 }
