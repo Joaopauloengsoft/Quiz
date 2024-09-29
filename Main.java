@@ -58,5 +58,16 @@ public class Main {
         q5.opcaoE = "E) 12 de outubro de 1492";
         q5.correta = "D";
         questoes.add(q5);
+
+        Questao q6 = new Questao();
+        q6.pergunta = "QUESTÃO 6- O líder da Inconfidência Mineira, conhecido por Tiradentes, chamava-se:";
+        q6.opcaoA = "A) Washington Luís";
+        q6.opcaoB = "B) José Bonifácio";
+        q6.opcaoC = "C) Joaquim José da Silva Xavier ";
+        q6.opcaoD = "D) Joaquim Nabuco";
+        q6.opcaoE = "E) Eusébio de Queirós";
+        q6.correta = "C";
+        questoes.add(q6);
+
     }
 }
