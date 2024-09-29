@@ -28,5 +28,16 @@ public class Main {
         q2.opcaoE = "E) Interior de Minas Gerais, entre 1896 e 1897";
         q2.correta = "B";
         questoes.add(q2);
+
+        Questao q3 = new Questao();
+        q3.pergunta = "QUESTÃO 3- É correto afirmar que Tiradentes foi:";
+        q3.opcaoA = "A) Líder da Guerra dos Mascates";
+        q3.opcaoB = "B) Líder da Guerra dos Emboabas";
+        q3.opcaoC = "C) Líder da Guerra dos Canudos";
+        q3.opcaoD = "D) Líder da Conjuração Baiana";
+        q3.opcaoE = "E) Líder da Inconfidência Mineira";
+        q3.correta = "E";
+        questoes.add(q3);
+        
     }
 }
