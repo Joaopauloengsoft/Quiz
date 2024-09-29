@@ -38,6 +38,15 @@ public class Main {
         q3.opcaoE = "E) Líder da Inconfidência Mineira";
         q3.correta = "E";
         questoes.add(q3);
-        
+
+        Questao q4 = new Questao();
+        q4.pergunta = "QUESTÃO 4- Quem unificou o Egito?";
+        q4.opcaoA = "A) Quéops";
+        q4.opcaoB = "B) Menés ";
+        q4.opcaoC = "C) Tutankamon";
+        q4.opcaoD = "D) Ramsés";
+        q4.opcaoE = "E) Tutmés II";
+        q4.correta = "B";
+        questoes.add(q4);
     }
 }
