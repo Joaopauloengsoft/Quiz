@@ -128,5 +128,15 @@ public class Main {
         q12.opcaoE = "E) Georges Danton";
         q12.correta = "A";
         questoes.add(q12);
+
+        Questao q13 = new Questao();
+        q13.pergunta = "QUESTÃO 13- Qual foi o evento que marcou o início da Idade Média?";
+        q13.opcaoA = "A) A ascensão do Império Bizantino";
+        q13.opcaoB = "B) A descoberta da América";
+        q13.opcaoC = "C) A Revolução Industrial";
+        q13.opcaoD = "D) A queda do Império Romano do Ocidente";
+        q13.opcaoE = "E) A Guerra dos Cem Anos";
+        q13.correta = "D";
+        questoes.add(q13);
     }
 }
