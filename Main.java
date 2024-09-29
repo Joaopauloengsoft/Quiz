@@ -98,5 +98,17 @@ public class Main {
         q9.opcaoE = "E) A Guerra Civil Americana";
         q9.correta = "A";
         questoes.add(q9);
+
+        Questao q10 = new Questao();
+        q10.pergunta = "QUESTÃO 10- Quem descobriu o Brasil?";
+        q10.opcaoA = "A) Cristóvão Colombo";
+        q10.opcaoB = "B) Fernão de Magalhães";
+        q10.opcaoC = "C) Vasco da Gama";
+        q10.opcaoD = "D) Pedro Álvares Cabral";
+        q10.opcaoE = "E) Américo Vespúcio";
+        q10.correta = "D";
+        questoes.add(q10);
+
+        
     }
 }
