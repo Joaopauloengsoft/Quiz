@@ -21,7 +21,7 @@ public class Util {
         System.out.println("");
         System.out.println("VOCÊ ACERTOU " + corretas + " QUESTÕES!");
         System.out.println("VOCÊ ERROU " + (quant - corretas) + " QUESTÕES!");
-        System.out.println("PORCENTAGEM DE ACERTOS:" +((100*corretas)/ quant));
+        System.out.println("PORCENTAGEM DE ACERTOS:" +((100*corretas)/ quant) + "%");
         System.out.println("OBRIGADO POR JOGAR!");
         System.out.println("");
         System.out.println("***********************************");
