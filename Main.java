@@ -79,5 +79,14 @@ public class Main {
         q7.correta = "C";
         questoes.add(q7);
 
+        Questao q8 = new Questao();
+        q8.pergunta = "QUESTÃO 8- Quem foi o primeiro presidente dos Estados Unidos?";
+        q8.opcaoA = "A) Abraham Lincoln";
+        q8.opcaoB = "B) George Washington";
+        q8.opcaoC = "C) Thomas Jefferson";
+        q8.opcaoD = "D) John Adams";
+        q8.opcaoE = "E) James Madison";
+        q8.correta = "B";
+        questoes.add(q8);
     }
 }
