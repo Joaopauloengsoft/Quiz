@@ -149,6 +149,15 @@ public class Main {
         q14.correta = "B";
         questoes.add(q14);
 
+        Questao q15 = new Questao();
+        q15.pergunta = "QUESTÃO 15- Qual foi a principal causa da Revolução Industrial?";
+        q15.opcaoA = "A) A Revolução Francesa";
+        q15.opcaoB = "B) A descoberta da eletricidade";
+        q15.opcaoC = "C) A invenção da máquina a vapor";
+        q15.opcaoD = "D) A Guerra dos Trinta Anos";
+        q15.opcaoE = "E) A colonização das Américas";
+        q15.correta = "C";
+        questoes.add(q15);
         
     }
 }
