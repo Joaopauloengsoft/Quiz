@@ -88,5 +88,15 @@ public class Main {
         q8.opcaoE = "E) James Madison";
         q8.correta = "B";
         questoes.add(q8);
+
+        Questao q9 = new Questao();
+        q9.pergunta = "QUESTÃO 9- Qual foi a principal causa da Primeira Guerra Mundial?";
+        q9.opcaoA = "A) A morte do arquiduque Francisco Ferdinando";
+        q9.opcaoB = "B) A invasão da Polônia";
+        q9.opcaoC = "C) A Revolução Russa";
+        q9.opcaoD = "D) A crise dos mísseis de Cuba";
+        q9.opcaoE = "E) A Guerra Civil Americana";
+        q9.correta = "A";
+        questoes.add(q9);
     }
 }
