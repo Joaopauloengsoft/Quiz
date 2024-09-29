@@ -109,6 +109,14 @@ public class Main {
         q10.correta = "D";
         questoes.add(q10);
 
-        
+        Questao q11 = new Questao();
+        q11.pergunta = "QUESTÃO 11- Qual foi o primeiro país a abolir a escravidão?";
+        q11.opcaoA = "A) Estados Unidos";
+        q11.opcaoB = "B) Brasil";
+        q11.opcaoC = "C) França";
+        q11.opcaoD = "D) Inglaterra";
+        q11.opcaoE = "E) Haiti";
+        q11.correta = "E";
+        questoes.add(q11);
     }
 }
