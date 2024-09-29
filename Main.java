@@ -158,6 +158,14 @@ public class Main {
         q15.opcaoE = "E) A colonização das Américas";
         q15.correta = "C";
         questoes.add(q15);
-        
+
+        for (Questao questao : questoes) {
+            questao.escrevaQuestao();
+            String resposta = questao.leiaResposta();
+            if (questao.isCorreta(resposta)) {
+                contadorCorretas++;
+            }
+        }
+        Util.rodape(contadorCorretas, questoes.size());
     }
 }
