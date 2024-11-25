@@ -45,6 +45,7 @@ public class Questao {
         return false;
     }
 
+
     public void escrevaQuestao() {
         System.out.println(this.pergunta);
         System.out.println();
