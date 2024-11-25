@@ -159,6 +159,7 @@ public class Main {
         q15.correta = "C";
         questoes.add(q15);
 
+
         for (Questao questao : questoes) {
             questao.escrevaQuestao();
             String resposta = questao.leiaResposta();
